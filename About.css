@@ -1,0 +1,28 @@
+.fixed{
+  position: fixed;
+}
+.titologrande{
+    position: absolute;
+    left: 50vw;
+    width: 250px;
+    transform: translate(-50%);
+
+  }
+  .about{
+      position: absolute;
+      left: 50vw;
+      width: 50px;
+      transform: translate(-50%);
+      top:10vw;
+    }
+  .box{
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    font-family:"helvetica";
+    top:50%;
+    left:50%;
+    width:15vw;
+    height:15vw;
+  }
+
+  

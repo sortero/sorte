@@ -1,0 +1,284 @@
+
+.fixed{
+  position: fixed;
+
+}
+.fixed2{
+
+  position: absolute;
+  top:50vh;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+
+}
+.loading{
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100vw;
+    height:100vh;
+    background: white;
+    z-index: 2;
+}
+
+.cerchio{
+  width: 100px;
+  animation: rotazione 1s infinite linear;
+}
+
+@keyframes rotazione {
+  from {transform: rotate(0deg) ;}
+  to{transform: rotate(360deg);}
+}
+
+
+.titologrande{
+  position: absolute;
+  left: 50vw;
+  width: 250px;
+  transition:0.25s;
+  transform: translate(-50%);
+}
+.titolopiccolo{
+ position: absolute;
+ top: 0.5vw;
+ left: 0vw;
+ width: 150px;
+ transition:0.25s;
+}
+.contenuto{
+  position: absolute;
+  margin-top: 150px;
+  width: 100%;
+  z-index: -1;
+
+}
+.instagram{
+  position: absolute;
+  left: 45vw;
+  width: 40px;
+  bottom:5vw;
+}
+.facebook{
+  position: absolute;
+  left: 53vw;
+  width: 33px;
+  bottom:5.3vw;
+}
+
+.sorte{
+  margin-top: 5000px;
+}
+
+.topbarra {
+  background-color: white;
+  width: 100vw;
+  height: 160px;
+
+  position: fixed;
+  z-index: 0;
+  transition:0.25s;
+}
+.underbarra {
+  background-color: white;
+  width: 100vw;
+  height: 160px;
+  top:0%;
+
+  z-index: 0;
+}
+
+.topbarra2{
+  background-color: white;
+  width: 100vw;
+  height: 80px;
+
+  position: fixed;
+  z-index: 0;
+  transition:0.25s;
+}
+
+ul#menu {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#menu li {
+    background-color: #000000;
+    border-bottom: 5px solid #ffed00;
+    display: block;
+    width: 140px;
+    height: 30px;
+    margin: 2px;
+    float: left;
+}
+
+ul#menu li a {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+}
+
+ul#menu li.active, ul#menu li:hover {
+    background-color: #ffed00;
+    border-bottom: 5px solid #000000;
+}
+
+.menu {
+  position: absolute;
+  left: 50vw;
+  top:72%;
+  width: max-content;
+  transform: translate(-50%);
+  transition:0.25s;
+}
+.menu2{
+  position: absolute;
+  left: 50vw;
+  top:31%;
+  width: max-content;
+  transform: translate(-50%);
+  transition:0.25s;
+
+}
+
+.totalbarre{
+  width: 100%;
+  display:block;
+  height: 400px;
+  background-color: white;
+}
+.barra1  {
+  width: 46%;
+  display:inline;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  height: 350px;
+  background-color: grey;
+  margin:2%;
+
+}
+
+.barra1 {
+  object-fit: cover;
+}
+
+.barra1:hover .colorelink{
+  opacity:0.5;
+}
+
+
+
+.barra1:hover  img{
+ transform: scale(1.05);
+ transition: 1.5s;
+ overflow: hidden;
+}
+.colorelink{
+  box-sizing: border-box;
+  position: absolute;
+  top: auto;
+  left: auto;
+  background-color: black;
+  width:46%;
+  height:350px;
+  opacity:0;
+  text-align: center;
+  padding-top: 20%;
+  color:white;
+  font-family:"Helvetica";
+
+
+}
+.colorelink2{
+  box-sizing: border-box;
+  position: absolute;
+  top: auto;
+  left: auto;
+  background-color: black;
+  width:46%;
+  height:350px;
+  opacity:0;
+  text-align: center;
+  padding-top: 7%;
+  color:white;
+  font-family:"Helvetica";
+  z-index:1;
+
+}
+
+.totalbarre .barra1 img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+
+}
+
+.barra2  {
+  width:46%;
+  display: inline;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  height: 350px;
+  background-color: grey;
+  margin:2%;
+
+}
+
+.barra2{
+  object-fit: cover;
+  }
+
+.barra2:hover .colorelink{
+  opacity:0.5;
+}
+
+.barra2:hover img{
+  transform: scale(1.05);
+  transition: 1.5s;
+  overflow: hidden;
+}
+
+.totalbarre .barra2 img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+.parallax{
+    height: 250px;
+    z-index: -1;
+}
+.parallaxbg{
+  background-image: url("IMG_2154 copia 2.jpg");
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+
+.parallax2{
+  background-image: url("IMG_2149 copia 2.JPG");
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.descrizione1{
+width: 46%;
+height: 350px;
+}

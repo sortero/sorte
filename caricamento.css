@@ -1,0 +1,17 @@
+.cerchio{
+  width: 100px;
+  animation: rotazione 1s infinite linear;
+}
+
+.fixed2{
+  position: fixed;
+  position: absolute;
+  top:50vh;
+  left: 50vw;
+  transform: translate(-50%,-50%);
+  background: white;
+}
+@keyframes rotazione {
+  from {transform: rotate(0deg) ;}
+  to{transform: rotate(360deg);}
+}
