@@ -5,6 +5,11 @@ function loading(){
 
 }
 
+
+
+
+
+
 $(document).on("scroll",function(){
     if($(document).scrollTop()>10){
         $("#titolo").removeClass("titologrande").addClass("titolopiccolo");

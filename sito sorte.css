@@ -1,7 +1,6 @@
 
 .fixed{
   position: fixed;
-
 }
 .fixed2{
 
@@ -173,10 +172,19 @@ ul#menu li.active, ul#menu li:hover {
 }
 
 .barra1:hover .colorelink{
+  opacity:1;
+}
+.barra1:hover .colorelink2{
   opacity:0.5;
 }
 
+.barra1 img{
+  transition: 1.5s;
+}
 
+.barra2 img{
+  transition: 1.5s;
+}
 
 .barra1:hover  img{
  transform: scale(1.05);
@@ -188,14 +196,15 @@ ul#menu li.active, ul#menu li:hover {
   position: absolute;
   top: auto;
   left: auto;
-  background-color: black;
-  width:46%;
+  background-color: transparent;
+  width:46vw;
   height:350px;
   opacity:0;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 7%;
   color:white;
   font-family:"Helvetica";
+  z-index: 5;
 
 
 }
@@ -204,15 +213,14 @@ ul#menu li.active, ul#menu li:hover {
   position: absolute;
   top: auto;
   left: auto;
-  background-color: black;
-  width:46%;
+ background-color: black;
+  width:46vw;
   height:350px;
   opacity:0;
-  text-align: center;
-  padding-top: 7%;
+  padding-top: 20%;
+  z-index:4;
   color:white;
   font-family:"Helvetica";
-  z-index:1;
 
 }
 
@@ -240,6 +248,9 @@ ul#menu li.active, ul#menu li:hover {
   }
 
 .barra2:hover .colorelink{
+  opacity:1;
+}
+.barra2:hover .colorelink2{
   opacity:0.5;
 }
 
@@ -254,31 +265,28 @@ ul#menu li.active, ul#menu li:hover {
   height:100%;
   object-fit: cover;
 }
-.parallax{
-    height: 250px;
-    z-index: -1;
-}
-.parallaxbg{
-  background-image: url("IMG_2154 copia 2.jpg");
-  background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    z-index: -2;
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
 }
 
-.parallax2{
-  background-image: url("IMG_2149 copia 2.JPG");
-  min-height: 250px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .descrizione1{
 width: 46%;
 height: 350px;
+}
+
+.c_data{
+  position: absolute;
+  width: 4%;
+  left: 48%;
+  display: inline;
+  margin-top:  2%;
+  height: 350px;
+}
+.data{
+  text-align: center;
+  position:sticky;
+  top: 90px;
 }

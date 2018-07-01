@@ -1,15 +1,14 @@
-
 .fototot{
   display:grid;
   grid:auto/auto auto auto;
   grid-gap: 0;
   width: 100%;
-
+margin-top: 3.5%;
 }
 
 
 .foto1 img{
-width:33vw;
-height: 28vw;
+width:50vw;
+height:50vw;
 object-fit: cover;
 }
